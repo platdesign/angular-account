@@ -1,0 +1,15 @@
+account-login,
+account-register {
+	display: block;
+
+	form {
+		label {
+			display: block;
+			input[type="text"],
+			input[type="password"] {
+				width: 100%;
+			}
+		}
+	}
+
+}
