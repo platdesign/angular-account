@@ -16,8 +16,9 @@ module.exports = ngModule;
 
 ngModule.provider('Account', require('./providers/Account.js') );
 
-ngModule.directive('accountLogin', require('./directives/account-login.js') );
-ngModule.directive('accountRegister', require('./directives/account-register.js') );
+//ngModule.directive('accountLogin', require('./directives/account-login.js') );
+//ngModule.directive('accountRegister', require('./directives/account-register.js') );
+ngModule.directive('ifAccountOnline', require('./directives/if-account-online.js') );
 
 
 
