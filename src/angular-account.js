@@ -23,6 +23,6 @@ ngModule.directive('ifAccountOnline', require('./directives/if-account-online.js
 
 
 ngModule.run(['$rootScope','Account', function($rootScope, Account) {
-	Account.load();
+	//Account.load();
 	$rootScope.Account = Account;
 }]);
